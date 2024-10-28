@@ -1,0 +1,79 @@
+/* VENDOR: FANCYBOX
+-------------------------------------------- */
+
+.fancybox-bg {
+	background-color: var(--ptf-color-18);
+}
+
+.fancybox-is-open .fancybox-bg {
+	opacity: 1;
+}
+
+.fancybox-loading {
+	border: 2px solid hsla(0, 0%, 100%, .2);
+	border-top-color: var(--ptf-accent-1);
+}
+
+/* BUTTONS
+-------------------------------------------- */
+
+.fancybox-navigation,
+.fancybox-toolbar,
+.fancybox-content {
+
+	.fancybox-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+
+		width: px2rem(45px);
+		height: px2rem(45px);
+		padding: 0;
+
+		color: var(--ptf-color-white);
+		font-size: px2rem(18px);
+
+		background-color: var(--ptf-accent-1);
+
+		transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
+		cursor: pointer;
+
+		&:hover {
+			color: var(--ptf-color-white);
+
+			background-color: var(--ptf-accent-2);
+		}
+
+	}
+
+	.fancybox-button--arrow_left {
+		top: calc(50% - #{px2rem(22px)});
+		left: 0;
+	}
+
+	.fancybox-button--arrow_right {
+		top: calc(50% - #{px2rem(22px)});
+		right: 0;
+	}
+
+	.fancybox-close-small {
+		top: px2rem(-20px);
+		right: px2rem(-20px);
+
+		opacity: 1;
+	}
+
+}
+
+.fancybox-toolbar {
+	top: 0;
+	right: 0;
+}
+
+.fancybox-navigation .fancybox-button--arrow_left:hover i {
+	animation: ptf_animate_icon_left var(--ptf-transition-duration) var(--ptf-transition-easing) forwards;
+}
+
+.fancybox-navigation .fancybox-button--arrow_right:hover i {
+	animation: ptf_animate_icon_right var(--ptf-transition-duration) var(--ptf-transition-easing) forwards;
+}

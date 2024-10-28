@@ -1,0 +1,339 @@
+/* Custom CSS */
+
+#awwwards {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+
+	width: 90px;
+	height: 135px;
+
+	text-indent: -666em;
+
+	background-image: url(../img/root/awwwards_honorable_white.png);
+	background-repeat: no-repeat;
+	background-size: 90px 135px;
+
+	overflow: hidden;
+}
+
+.subcaption {
+	font-size: 1em;
+	color:#00bec5;
+}
+
+.ptf-animated-block #center-item {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	background-color: #404cde;
+
+}
+
+.jarallax {
+	width: 100%; /* Set the width of the container */
+	height: 500px; /* Set the height of the container */
+	overflow: hidden; /* Hide any video content that overflows */
+	position: relative; /* Required for positioning the video */
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+    }
+    
+    .jarallax-img {
+	width: 100%; /* Make the video fill the container width */
+	height: 100%; /* Make the video fill the container height */
+	object-fit: contain; /* Maintain aspect ratio without cropping */
+	position: absolute; /* Position the video absolutely within the container */
+	top: 0;
+	left: 0;
+    }
+
+
+
+
+/* Basic styling for the video section */
+
+/* -------------------------------------------------------  Start of the Video Section from Google Gemini  
+.video-section {
+	position: relative;
+	display: inline-block;
+	width: 100%; 
+  }
+  
+  .video-section img {
+	width: 100%;
+	display: block;
+  }
+  
+  .play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	background: url('path/to/play-button.svg') no-repeat center center / contain;
+	cursor: pointer;
+  }
+  
+  /* Lightbox styling */
+  /*
+  .lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 1000; 
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .lightbox-content {
+	position: relative;
+	max-width: 90%;
+	max-height: 90vh;
+  }
+  
+  .lightbox .responsive-video {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  /*
+  .close-lightbox {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	background: url('path/to/close-icon.svg') no-repeat center center / contain;
+	cursor: pointer;
+  }
+.calendly{
+	font-size: 1.2em;
+	font-family: Cerebri Sans;
+	font-weight: bold;
+	color: #212121;
+}
+/*
+.centered-container {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+-------------------------------------------------------  End of the Video Section from Google Gemini  */
+
+#wpselected {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+	width: 90px;
+	height: 90px;
+
+	text-indent: -666em;
+
+	background-image: url(../img/root/wpselected-badge-left.png);
+	background-repeat: no-repeat;
+	background-size: 90px 90px;
+
+	overflow: hidden;
+}
+
+.ptf-custom--9135 .typed-cursor {
+	color: #ee3364;
+}
+
+.ptf-custom--0531 {
+	position: absolute;
+	bottom: 15%;
+	left: 130px;
+
+	color: #0b0b0b;
+	font-size: 35px;
+}
+
+.ptf-custom--9503::after {
+	content: '';
+
+	position: absolute;
+	top: 50%;
+	left: calc(100% + 30px);
+
+	width: 0;
+	max-width: 60px;
+	height: 1px;
+
+	background-color: #1f0e49;
+
+	transition: width .5s 1s ease-in-out;
+}
+
+.ptf-is-page-loaded .ptf-custom--9503::after {
+	width: 100%;
+}
+
+.ptf-custom--5832 {
+	position: relative;
+	z-index: 1;
+
+	margin-right: 50px;
+}
+
+.ptf-custom--5832::after {
+	content: '';
+
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	z-index: -1;
+
+	width: 100%;
+	height: 100%;
+
+	border: 10px solid #00bec5;
+}
+
+.ptf-custom--5832 {
+	position: relative;
+	z-index: 1;
+
+	margin-right: 50px;
+}
+
+.ptf-custom--5832::after {
+	content: '';
+
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	z-index: -1;
+
+	width: 100%;
+	height: 100%;
+
+	border: 10px solid #00bec5;
+}
+
+.ptf-custom--3103 .ptf-services-box__link {
+	background-color: rgba(0,0,0,.25);
+}
+
+.ptf-custom--3103 .ptf-highlight {
+	background: linear-gradient(to top, transparent 5%, rgba(0,0,0,.25) 5% , rgba(0,0,0,.25) 37%, transparent 37%);
+}
+
+.ptf-custom--4111 .ptf-swiper-pagination--style-1 span {
+	background-color: #fff;
+}
+
+.ptf-custom--4111 .ptf-swiper-button-prev--style-2,
+.ptf-custom--4111 .ptf-swiper-button-next--style-2 {
+	color: #fff;
+}
+
+.ptf-custom--6632 {
+	margin-top: -225px;
+}
+
+.ptf-custom--9917 .ptf-social-icons a:not(:hover) {
+	color: #fff;
+}
+
+.ptf-custom--8681 .ptf-countdown h5,
+.ptf-custom--8681 .ptf-countdown strong {
+	color: #fff;
+}
+
+.ptf-custom--9511 .ptf-swiper-pagination--style-1 span {
+	background-color: #fff;
+}
+
+.ptf-is--homepage-05 .ptf-header--default .ptf-navbar,
+.ptf-is--homepage-05 .ptf-header--default .ptf-navbar.ptf-navbar--solid {
+	background-color: #191919;
+}
+
+.ptf-is--homepage-11 .ptf-navbar {
+	padding: 0 35px;
+}
+
+.ptf-is--homepage-11 .ptf-navbar .container {
+	width: 100%;
+}
+
+/* min-width 768px */
+@media (min-width: 768px) {
+	.ptf-custom--5136 {
+		padding-left: 70px;
+	}
+	.ptf-custom--8620 {
+		padding-right: 70px !important;
+	}
+	.ptf-custom--5317 {
+		padding: 0 30px !important;
+	}
+	.ptf-custom--5171 {
+		padding-right: 70px;
+	}
+	.ptf-custom--7205 {
+		margin-top: -100px;
+	}
+	.ptf-custom--8511 {
+		padding-right: 85px;
+	}
+	.ptf-custom--6525 {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+/* max-width 767px */
+@media (max-width: 767px) {
+	#awwwards,
+	#wpselected {
+		display: none;
+	}
+	.ptf-custom--9135 h2 {
+		font-size: 28px
+	}
+	.ptf-custom--1631 {
+		font-size: 38px;
+	}
+}
+
+/* max-width 991px */
+@media (max-width: 991px) {
+	.ptf-custom--9182 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.ptf-custom--9182 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+}
+
+/* max-width 575px */
+@media (max-width: 575px) {
+	.ptf-custom-9182 {
+		font-size: 38px;
+		line-height: 50px;
+	}
+	.ptf-custom-9182 {
+		font-size: 38px;
+		line-height: 50px;
+	}
+	.ptf-custom--0531 {
+		bottom: 5%;
+	}
+}

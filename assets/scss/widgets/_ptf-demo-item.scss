@@ -1,0 +1,37 @@
+/* WIDGET: DEMO ITEM
+-------------------------------------------- */
+
+.ptf-demo-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: column;
+	background-color: #efede7;
+	border: 1px solid var(--ptf-color-14);
+	border-radius: px2rem(10px);
+
+	&__title {
+		width: 100%;
+		padding: px2rem(15px) px2rem(20px);
+		margin-top: auto;
+		font-size: px2rem(16px);
+		background-color: var(--ptf-color-white);
+		border-top: 1px solid var(--ptf-color-14);
+	}
+
+	&__title-soon {
+		font-size: px2rem(15px);
+		color: var(--ptf-color-3);
+	}
+
+	&--effect {
+		transition: transform var(--ptf-transition-duration) var(--ptf-transition-easing);
+
+		&:hover {
+			transform: translateY(-5px);
+		}
+
+	}
+
+}

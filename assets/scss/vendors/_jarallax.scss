@@ -1,0 +1,22 @@
+/* VENDOR: JARALLAX
+-------------------------------------------- */
+
+.jarallax {
+	position: relative;
+	z-index: 0;
+}
+
+.jarallax>.jarallax-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	width: 100%;
+	height: 100%;
+	/* support for plugin https://github.com/bfred-it/object-fit-images */
+
+	font-family: 'object-fit: cover;';
+
+	object-fit: cover;
+}

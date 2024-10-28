@@ -1,0 +1,22 @@
+/* VENDOR: AOS
+-------------------------------------------- */
+
+[data-aos=fade-up-sm] {
+	opacity: 0;
+
+	transition-property: transform, opacity;
+
+	@include mq('medium', min) {
+		transform: translateY(30px);
+
+		&.aos-animate {
+			transform: translateY(0);
+		}
+
+	}
+
+	&.aos-animate {
+		opacity: 1;
+	}
+
+}

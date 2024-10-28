@@ -1,0 +1,112 @@
+/* WIDGET: COUNTER UP
+-------------------------------------------- */
+
+.ptf-counter-up {
+	--ptf-value-font-family: var(--ptf-primary-font);
+	--ptf-value-font-weight: 700;
+	--ptf-value-color: var(--ptf-color-black);
+	--ptf-title-color: var(--ptf-color-2);
+}
+
+.ptf-counter-up {
+	display: inline-flex;
+
+	.ptf-counter-up__value {
+		font-family: var(--ptf-value-font-family);
+		font-weight: var(--ptf-value-font-weight);
+		line-height: 1;
+
+		&::before {
+			content: attr(data-prefix);
+			position: relative;
+			top: -.15em;
+			margin-right: px2rem(5px);
+			font-size: .5em;
+			vertical-align: middle;
+		}
+
+		&::after {
+			content: attr(data-suffix);
+		}
+
+	}
+
+	.ptf-counter-up__title {
+		font-weight: normal;
+		color: var(--ptf-title-color);
+		text-transform: uppercase;
+	}
+
+	&--style-1 {
+		flex-direction: column;
+
+		@media (min-width: 1920px) {
+			display: inline-flex;
+			align-items: center;
+			flex-direction: row;
+
+			.ptf-counter-up__title {
+				margin-top: 0 !important;
+				margin-left: px2rem(30px);
+				flex-basis: 100%;
+			}
+
+		}
+
+		.ptf-counter-up__value {
+			font-size: px2rem(60px);
+			color: var(--ptf-value-color);
+		}
+
+		.ptf-counter-up__title {
+			font-size: px2rem(16px);
+			line-height: 1.6;
+		}
+
+		.ptf-counter-up__title {
+			margin-top: px2rem(10px);
+		}
+
+	}
+
+	&--style-2 {
+		align-items: center;
+		flex-direction: row;
+
+		.ptf-counter-up__value {
+			font-size: px2rem(36px);
+			color: var(--ptf-value-color);
+		}
+
+		.ptf-counter-up__title {
+			margin-top: 0;
+			margin-left: px2rem(30px);
+			font-size: px2rem(14px);
+			line-height: 1.42;
+			text-align: left;
+			flex-basis: 100%;
+		}
+
+	}
+
+	&--style-3 {
+		display: flex;
+		padding-top: px2rem(35px);
+		flex-direction: column;
+		border-top: 2px solid var(--ptf-color-black);
+
+		.ptf-counter-up__title {
+			font-size: px2rem(16px);
+			font-weight: 700;
+			line-height: 1.875;
+		}
+
+		.ptf-counter-up__value {
+			margin-top: px2rem(50px);
+			font-size: px2rem(80px);
+			color: var(--ptf-value-color);
+		}
+
+	}
+
+}
